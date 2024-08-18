@@ -33,9 +33,9 @@ driver = webdriver.Chrome(options=options)
 username = ""
 password = ""
 stock_tickers = ["AAPL", "PYPL"]
-stock_action = "buy"
+stock_action = "buy" # can also change to "sell"
 shares = 1
-account_numbers = []
+account_numbers = [] # add account numbers as a list of strings
 ah = False # set to true if buying/selling in after hours trading
 
 driver.get("https://secure.chase.com/web/auth/dashboard#/dashboard/index/index")
